@@ -1,0 +1,28 @@
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 0;
+  transition: margin-left 0.3s ease;
+}
+
+@media (min-width: 992px) {
+  .dashboard-content {
+    margin-left: 280px;
+  }
+}
+
+.section-divider {
+  border-top: 2px solid #e9ecef;
+  margin: 2rem 0;
+}
+
+.section-title {
+  color: #2c3e50;
+  font-weight: 600;
+  margin: 1.5rem 0;
+} 
